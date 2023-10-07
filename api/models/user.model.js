@@ -15,6 +15,10 @@ const userSchema=new mongoose.Schema({
         required:true,
         
     },
+    avatar:{
+        type:String,
+        default:'https://tse2.mm.bing.net/th?id=OIP.sHlaxfIHndDgtkr35zWJqgHaEo&pid=Api&P=0&h=220'
+    },
 
 },{timestamps:true})
 
